@@ -12,7 +12,7 @@ permissions:
 
 jobs:
     Benchmark:
-        runs-on: self-hosted
+        runs-on: ubuntu-latest
         # run if PR has `run benchmark` label 
         if: contains(github.event.pull_request.labels.*.name, 'run benchmark') 
         steps:
