@@ -10,6 +10,9 @@ on:
 permissions:
   pull-requests: write
 
+env:
+  PACKAGE_NAME: HMatrices
+
 jobs:
     Benchmark:
         runs-on: ubuntu-latest
